@@ -3,7 +3,6 @@ html{
 }
 body {
   background: url("final.jpg") fixed;
-  background-attachment: fixed;
   background-size: cover;
   margin: 0;
   padding: 0;
@@ -133,8 +132,8 @@ body {
   color: black;
 }
 .servicezone{
-  color: #e35d5a;
-  font-size: 50px;
+  font-size: 5vw;
+  color: rgba(238, 11, 11);
 }
 .fourtharea {
   background-color: #fff;
@@ -538,6 +537,7 @@ section .section-title {
 
 .card {
   background-color: #E8E9ED;
+  width:100%;
 }
 .card text{
   text-align: left !important;
@@ -593,10 +593,6 @@ padding-top: 20px;
   animation-name: notice;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-}
-.servicezone{
-  color: rgba(238, 11, 11);
-  font-size: 50px;
 }
 .project {
 width: 100%;
@@ -672,4 +668,15 @@ height: 5px;
 
 #newservicearae{
   background-color: #fff;
+}
+.navbar-light .navbar-toggler {
+  color:#e35d5a !important;
+}
+@media screen and (max-width:1000px){
+  .thirdarea p, .test h1, .newservice h1{
+    animation: none;
+  }
+  #myCarousel .carousel-item {
+    min-height: 750px;
+  }
 }
