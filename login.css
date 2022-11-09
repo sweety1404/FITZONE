@@ -1,7 +1,7 @@
 .login-block {
-  background: #f84c4c; /* fallback for old browsers */
-  background: -webkit-linear-gradient( to bottom, #f83737, #f84747 ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #964242, #482c2c);
+  background: rgba(238,11,11); /* fallback for old browsers */
+  /*background: -webkit-linear-gradient( to bottom, #f83737, #f84747 ); /* Chrome 10-25, Safari 5.1-6 */
+ /* background: linear-gradient(to bottom, #964242, #482c2c);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: cover;
   float: left;
@@ -48,13 +48,13 @@
   color: black !important;
 }
 .login-sec .copy-text a {
-  color: #e36262;
+  color: rgba(238,11,11);
 }
 .login-sec h2 {
   margin-bottom: 30px;
   font-weight: 800;
   font-size: 30px;
-  color: #de6262;
+  color: rgba(238,11,11);
   font-family: "Poor Story", cursive;
 }
 .login-sec h1{
@@ -78,7 +78,7 @@
   margin-right: auto;
 }
 .btn-login {
-  background: #de6262;
+  background: rgba(238,11,11);
   color: #fff;
   font-weight: 600;
 }

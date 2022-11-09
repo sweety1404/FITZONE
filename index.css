@@ -17,30 +17,54 @@ body {
 }
 .menuarea {
   /* background-color: black; */
-  margin-top: 50px;
-  padding-left: 40px;
+  margin-top: 30px;
+  padding-left: 50px;
+  
 }
 .nav-link {
   text-align: right !important;
   color: rgb(255, 255, 255) !important;
   font-size: 20px !important;
-  padding: 0 15px !important;
+  padding: 0 20px !important;
   font-weight: bold;
-  text-shadow: -3px -2px 2px rgba(150, 150, 150, 1);
+  font-family: 'Fredoka One', cursive;
+  text-shadow: 4px 0px 3px rgba(209, 194, 194, 0.66);
 }
+.nav-item hr{ 
+  height: 5px;
+  width: 0%;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: rgba(255, 255, 255, 1);
+  border: 0;
+  }
+  .nav-item:hover hr{ 
+    height: 5px;
+    width: 100%;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background-color: rgba(255, 255, 255, 1);
+    border: 0;
+    }
 .toparea {
   color: #fff;
-  padding: 200px 0;
+  padding: 160px 0;
   text-align: center;
 }
 .toparea h1 {
-  font-size: 90px;
+  font-size: 120px;
   font-family: 'Bungee Inline', cursive;
+  text-shadow: 1px 5px 2px rgba(150, 150, 150, 1);
 }
 .toparea h4{
-  font-size: 30px;
+  font-size: 40px;
   font-family: 'Grand Hotel', cursive;
-  margin-left: 250px;
+  text-align: center;
+  text-shadow: 4px 2px 2px rgba(150, 150, 150, 1);
   
 }
 
@@ -74,15 +98,30 @@ body {
 }
 .thirdarea p {
   color: black;
-  font-size: 40px;
+  font-size: 30px;
   font-family: 'Michroma', sans-serif;
+}
+@keyframes notice{
+  0%{
+      letter-spacing: 10px;
+      text-shadow: 10px 10px 10px black;
+  }
+  100%{
+      letter-spacing: 0px;
+
+  }
+}
+.thirdarea p{
+  animation-name: notice;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 .thirdarea h6{
   text-align: justify;
 }
 .thirdzone {
-  color: #e35d5a;
-  font-size: 70px;
+  color: rgba(238, 11, 11);
+  font-size: 50px;
 }
 .servicearea{
   background-color: #fff;
@@ -100,11 +139,22 @@ body {
 .fourtharea {
   background-color: #fff;
   text-align: center;
-  padding: 20px;
+  padding-bottom: 40px;
+  padding-top: 0;
+}
+.fourtharea p{
+  font-size: 20px;
+  font-family: "Poor Story", cursive;
 }
 .fourtharea h4{
   font-size: 30px;
   font-family: "Poor Story", cursive;
+  color:black;
+}
+.fourthzone{
+  font-size: 30px;
+  font-family: "Poor Story", cursive;
+  color: rgba(238, 11, 11);
 }
 #myCarousel .carousel-item .mask {
   position: absolute;
@@ -115,13 +165,19 @@ body {
   width: 100%;
   background-attachment: fixed;
 }
-#myCarousel h1 {
+#myCarousel h4 {
   font-size: 40px;
   margin-top: 0;
-  color: black;
+  color:  rgba(238,11,11);
   line-height: 100%;
   letter-spacing: 0.5px;
   font-family: 'Michroma', sans-seri;
+
+}
+.fifthzone{
+  color: black;
+  font-family: 'Michroma', sans-seri;
+  font-size: 30px;
 
 }
 
@@ -142,7 +198,7 @@ body {
   background: #394fa2;
   text-decoration: none;
 }
-#myCarousel .carousel-item h1 {
+#myCarousel .carousel-item h4 {
   -webkit-animation-name: fadeInLeft;
   animation-name: fadeInLeft;
 }
@@ -161,7 +217,7 @@ body {
   height: auto;
   max-width: 100%;
 }
-#myCarousel h1,
+#myCarousel h4,
 #myCarousel p,
 #myCarousel a,
 #myCarousel .carousel-item .mask img {
@@ -444,20 +500,47 @@ section .section-title {
 }
 /*testinomoal*/
 .test{
-  background-color: #fff;
+  background-color: #E8E9ED;
+  padding-top: 0;
+  
   
 }
 .test h1{
-  font-size: 50px;
+  font-size: 30px;
   font-family: 'Michroma', sans-seri;
   color: black;
+  text-align: center;
+}
+@keyframes notice{
+  0%{
+      letter-spacing: 20px;
+      text-shadow: 10px 10px 10px black;
+  }
+  100%{
+      letter-spacing: 0px;
+
+  }
+}
+.test h1{
+  animation-name: notice;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.testzone{
+  font-size:50px;
+  color:rgba(238, 11, 11);
+  font-family: 'Michroma', sans-seri !important;
+  text-align: center;
 }
 #testimonials .card {
   border: 0;
 }
 
 .card {
-  text-align: center;
+  background-color: #E8E9ED;
+}
+.card text{
+  text-align: left !important;
 }
 
 .card img {
@@ -475,4 +558,118 @@ section .section-title {
 ._tm-header {
   padding-bottom: 5rem;
   padding-top: 5rem;
+}
+
+/* new service */
+.newservice{
+background-color: #fff;
+padding-top: 20px;
+}
+.title-arch {
+  background-color: #fff;
+  text-align: center;
+
+  margin: 30px 0;
+  font-size: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.title-arch h1{
+  font-size: 30px;
+  font-family: 'Michroma', sans-seri;
+  color: black;
+}
+@keyframes notice{
+  0%{
+      letter-spacing: 30px;
+      text-shadow: 10px 10px 10px black;
+  }
+  100%{
+      letter-spacing: 0px;
+
+  }
+}
+.newservice h1{
+  animation-name: notice;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.servicezone{
+  color: rgba(238, 11, 11);
+  font-size: 50px;
+}
+.project {
+width: 100%;
+height: 500px;
+background-image: url("man\ running.jpg");
+background-size: cover;
+background-position: center;
+padding: 0;
+float:left;
+}
+
+.project-2 {
+background-image: url("gym.jpg");
+}
+
+.project-3 {
+background-image: url("yoga-3.jpg");
+}
+
+.project-4 {
+background-image: url("zumba-2.jpg");
+}
+
+.project-hover {
+width: 100%;
+height: 100%;
+color: #fff;
+opacity: 0;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+background-color: rgba(238, 11, 11, 0.7);
+padding: 40% 30px !important;
+}
+
+.project-hover hr {
+height: 30px;
+width: 0;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+background-color: rgba(255, 255, 255, 1);
+border: 0;
+}
+
+.project-hover a {
+color: rgba(255, 255, 255, 1);
+padding: 2px 22px;
+line-height: 40px;
+border: 2px solid rgba(255, 255, 255, 1);
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+
+.project-hover a:hover {
+border-color: rgba(51, 51, 51, 1);
+color: rgba(51, 51, 51, 1);
+background-color: #FFF;
+}
+
+.project:hover .project-hover {
+opacity: 1;
+}
+
+.project:hover .project-hover hr {
+width: 100%;
+height: 5px;
+}
+
+#newservicearae{
+  background-color: #fff;
 }
