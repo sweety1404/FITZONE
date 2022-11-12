@@ -539,8 +539,8 @@ section .section-title {
   background-color: #E8E9ED;
   width:100%;
 }
-.card text{
-  text-align: left !important;
+.card text p{
+  text-align: justify;
 }
 
 .card img {
@@ -609,11 +609,11 @@ background-image: url("gym.jpg");
 }
 
 .project-3 {
-background-image: url("yoga-3.jpg");
+background-image: url("yogabg.jpg");
 }
 
 .project-4 {
-background-image: url("zumba-2.jpg");
+background-image: url("zumba.jpg");
 }
 
 .project-hover {

@@ -1,23 +1,24 @@
 .login-block {
-  background: rgba(238,11,11); /* fallback for old browsers */
+  /* background: rgba(238,11,11); fallback for old browsers */
   /*background: -webkit-linear-gradient( to bottom, #f83737, #f84747 ); /* Chrome 10-25, Safari 5.1-6 */
  /* background: linear-gradient(to bottom, #964242, #482c2c);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: cover;
+  background: -webkit-linear-gradient(left, #994b47, #fa4242);
   float: left;
   width: 100%;
-  padding: 70px 0;
+  padding: 20px 0;
   min-height: auto;
   
 }
 .banner-sec {
   background-size: cover;
-  min-height: 582px;
+  min-height: 400px;
   border-radius: 0 10px 10px 0;
   padding: 0;
 }
 .banner-sec img{
-    min-height: 500px;
+    min-height: 200px;
     background-size: cover;
 }
 .loginarea {
