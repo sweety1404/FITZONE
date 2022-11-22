@@ -53,23 +53,31 @@
                     <form action="" onsubmit="return false;">
                         <h1>FIT - ZONE</h1>
                         <h2>Create an account</h2>
-                        <input type="text" name="" placeholder="Username" />
+                        <input type="number" name="" placeholder="Mobile No" />
+                        <input type="text" name="" placeholder="Full Name" />
                         <input type="email" name="" placeholder="Email Address" />
-                        <input type="password" name="" placeholder="Create Password" />
-                        <input type="password" name="" placeholder="Confirm Password" />
+                        <input type="date" name="" placeholder="Date of Birth" />
+                        <input type="text" name="" placeholder="Address" />
+
+
+
                         <input type="submit" name="" value="Sign Up" />
                         <p class="signup">
                             Already have an account ?
-                            <a href="#" onclick="toggleForm();">Sign in.</a>
+                            <a href="" onclick="toggleForm();">Sign in.</a>
                         </p>
-                        <!-- <P>Back to<a class="nav-link" href="#"><i class="fa fa-home"></i> HOME</a></P>/ -->
+                        <!-- <br> -->
+                        <!-- <button onclick="history.back()" id="myBtn" title="Go Back"><b>Home</b></button> -->
+                        <a class="nav-link" href="index.html"><i class="fa fa-home"></i>HOME</a>
                     </form>
                 </div>
                 <div class="imgBx">
-                    <img src="registerpage.jpg"alt="" /></div>
+                    <img src="registerpage.jpg" alt="" />
+                </div>
             </div>
         </div>
     </section>
+
     <script>
         const toggleForm = () => {
             const container = document.querySelector('.container');

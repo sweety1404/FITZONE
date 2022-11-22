@@ -42,16 +42,26 @@ body{
   justify-content: space-around;
   width: 100vw;
   min-height: 100vh;
-  /* background: linear-gradient(180deg, #202020 0%, rgba(32, 32, 32, 0.2) 50%, #202020 100%), url("gallerybg.jpg"); */
   background-size: cover;
-  background-image: url("gallerybg.jpg");
+  background-image: url("contact3.png");
   background-position: center;
   background-repeat: no-repeat;
+  /* opacity: 0.5; */
 }
 
 .contact-title{
-  color: #CCCCCC;
-  font-size: 2.5rem;
+  /* color: #CCCCCC; */
+  /* font-size: 2.5rem; */
+  /* color: rgba(238,11,11); */
+  color:#fff;
+  /* text-shadow: 4px 4px 2px rgba(224, 215, 215, 0.6); */
+  font-size: 100px;
+  /* font-family: 'Grand Hotel', cursive; */
+  font-family: 'Bungee Inline', cursive;
+  text-shadow: 1px 5px 2px rgba(150, 150, 150, 1);
+  margin-top: 0;
+
+  
 }
 
 .contact-form{
@@ -59,7 +69,7 @@ body{
   flex-direction: column;
   padding: 1rem;
   gap: 1rem;
-  border: 1px solid #602DFF;
+  /* border: 1px solid rgba(238,11,11); */
   border-radius: 1rem;
   background: #252525;
   max-width: 375px;
@@ -92,7 +102,8 @@ label textarea{
 }
 
 .send-btn{
-  background: linear-gradient(90deg, #602DFF 0%, #170055 100%);
+  /* background: linear-gradient(90deg, #602DFF 0%, #170055 100%); */
+  background: -webkit-linear-gradient(left,  #e25149, #fa1717) !important;
   padding: .75rem;
   font-size: 1rem;
   font-weight: 600;
@@ -105,12 +116,14 @@ label input:hover,
 label textarea:hover,
 label input:focus,
 label textarea:focus{
-  border-color: #602DFF;
-  box-shadow: 0 0 0 3px #602DFF80;
+  /* border-color: #602DFF; */
+  border-color: rgba(238,11,11);
+  box-shadow: 0 0 0 3px rgba(238,11,11);
 }
 
 .send-btn:hover, .send-btn:focus{
-    background: linear-gradient(90deg, #602DFF 75%, #170055 100%);
+    /* background: linear-gradient(90deg, #602DFF 75%, #170055 100%); */
+    background: -webkit-linear-gradient(right, #e25149, #fa1717) !important;
 }
 
 @media screen and (max-width: 900px){

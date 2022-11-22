@@ -98,6 +98,22 @@ section .container .user .formBx form input {
   width: 100%;
   padding: 10px;
   background: #f5f5f5;
+  /* background: red; */
+  color: #333;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  margin: 8px 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+section .container .user .formBx form option, label {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  background: #f5f5f5;
+  /* background: red; */
   color: #333;
   border: none;
   outline: none;
@@ -189,4 +205,13 @@ section .container.active .signinBx .imgBx {
   section .container .user .formBx {
     width: 100%;
   }
+}
+.nav-link{
+  color: #fff;
+  width: 30%;
+  background: -webkit-linear-gradient(left, #994b47, #fa4242) !important;
+
+}
+.nav-link :hover{
+  color: black !important;
 }

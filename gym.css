@@ -2,7 +2,7 @@ html{
     scroll-behavior: smooth;
 }
 body {
-  background: url("final.jpg") fixed;
+  background: url("gym-1.jpg") fixed;
   background-size: cover;
   margin: 0;
   padding: 0;
@@ -17,12 +17,11 @@ body {
 .menuarea {
   /* background-color: black; */
   margin-top: 30px;
-  /* padding-left: 50px; */
-  text-align: center;
+  padding-left: 50px;
   
 }
 .nav-link {
-  /* text-align: right !important; */
+  text-align: right !important;
   color: rgb(255, 255, 255) !important;
   font-size: 20px !important;
   padding: 0 20px !important;
